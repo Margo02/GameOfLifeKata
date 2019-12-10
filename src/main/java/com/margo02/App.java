@@ -13,11 +13,13 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) {
+        MainView mainView = new MainView();
+        Scene scene = new Scene(mainView, 640, 480);
 
-        var label = new Label("Hello, JavaFX "  + ".");
-        var scene = new Scene(new StackPane(label), 640, 480);
         stage.setScene(scene);
         stage.show();
+        mainView.draw();
+
     }
 
     public static void main(String[] args) {
