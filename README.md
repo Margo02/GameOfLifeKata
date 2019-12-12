@@ -27,4 +27,24 @@ After that, the grid evolves through a series of time steps. The contents of the
 Algorithm
 1. Make a copy of the original board which will remain unchanged throughout the process.
 2. Iterate the cells of the Board one by one.
-3. While computing the results of the rules, use the copy board and apply the result in the original board.   
+3. While computing the results of the rules, use the copy board and apply the result in the original board.
+
+## Requirements
+
+* Java 8
+* JavaFX 2.x
+
+## Setup
+
+First, clone the project:
+
+```bash
+git clone https://github.com/Margo02/GameOfLifeKata.git
+```
+
+JUnit-5-specific plugins for **Maven** are included in the project's `pom.xml`. It should work without additional setup.
+
+
+**IntelliJ** is the tool that has native support and everything should work out of the box. Please mark "test" directory as TEST RESOURCES ROOT  
+
+
